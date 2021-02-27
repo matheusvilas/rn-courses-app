@@ -1,0 +1,12 @@
+{
+  "name": "rn-courses-app",
+  "displayName": "rn-courses-app",
+  "expo": {
+    "name": "rn-courses-app",
+    "slug": "rn-courses-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
