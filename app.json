@@ -5,8 +5,6 @@
     "name": "rn-courses-app",
     "slug": "rn-courses-app",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
   }
 }

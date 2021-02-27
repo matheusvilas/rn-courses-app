@@ -1,6 +1,12 @@
-import React, { FunctionComponent } from "react";
-import { Text } from "react-native";
+import React, { ReactNode } from 'react'
+import { Text } from 'react-native'
 
-export const Title: FunctionComponent = ({ children }) => {
-  return <Text>as</Text>;
-};
+type TitleProps = {
+  children: ReactNode
+}
+
+const Title: React.FC<TitleProps> = ({ children }) => {
+  return <Text>{children}</Text>
+}
+
+export default Title
