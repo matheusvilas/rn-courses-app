@@ -6,7 +6,7 @@ type Props = {
 }
 
 const Title: React.FC<Props> = ({ children }) => {
-  return <Text>{children}a</Text>
+  return <Text>{children}as</Text>
 }
 
 export default Title
