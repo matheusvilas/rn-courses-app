@@ -1,11 +1,11 @@
-import React, { ReactNode } from 'react'
+import * as React from 'react'
 import { Text } from 'react-native'
 
-type TitleProps = {
-  children: ReactNode
+type Props = {
+  children: React.ReactNode
 }
 
-const Title: React.FC<TitleProps> = ({ children }) => {
+const Title: React.FC<Props> = ({ children }) => {
   return <Text>{children}</Text>
 }
 

@@ -5,4 +5,7 @@ module.exports = {
     project: `./tsconfig.json`,
   },
   extends: ['@react-native-community', 'airbnb-typescript', 'prettier'],
+  rules: {
+    'react/prop-types': 0,
+  },
 }

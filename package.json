@@ -7,7 +7,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "tsc --noEmit && eslint --ext .js,.jsx,.ts,.tsx ./",
-    "prettier:write": "npx prettier --write **/*.{js,jsx,ts,tsx,json} && npx prettier --write *.{js,jsx,ts,tsx,json}"
+    "prettier:write": "prettier --write '**/*.{js,ts,tsx,json}' && prettier --write '*.{js,ts,tsx,json}'"
   },
   "dependencies": {
     "expo": "~40.0.0",
